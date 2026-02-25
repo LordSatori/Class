@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 //Components
-import Sidebar from "./components/Sidebaridebar";
+import Sidebar from "./components/Sidebar";
 
 //Pages
 import Home from "./Pages/Home";
