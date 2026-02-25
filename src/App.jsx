@@ -12,7 +12,7 @@ import Score from "./Pages/Score";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/class">
       <main style={{height : 2500}} className="d-flex bg-body-tertiary">
         <div className="w-25 bg-dark">
           <Sidebar />
