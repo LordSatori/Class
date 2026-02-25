@@ -20,8 +20,8 @@ function App() {
         <div className="w-75">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/payment" element={<Payment />} />
-            <Route path="/score" element={<Score />} />
+            <Route path="/class/payment" element={<Payment />} />
+            <Route path="/class/score" element={<Score />} />
           </Routes>
         </div>
       </main>
